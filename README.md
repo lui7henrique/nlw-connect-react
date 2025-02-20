@@ -17,7 +17,6 @@ Next.js frontend for NLW Connect event registration with referral system and ran
 - 🔗 Referral system with invite links
 - 📊 Referral stats dashboard
 - 🏆 Referral ranking
-- 🎨 Responsive UI
 
 ## 🏃‍♂️ Quick Start
 
