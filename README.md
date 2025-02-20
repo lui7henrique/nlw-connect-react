@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎯 NLW Connect - Referral System
 
-## Getting Started
+Next.js frontend for NLW Connect event registration with referral system and ranking.
 
-First, run the development server:
+## 🚀 Tech Stack
+
+- Next.js 15 + TypeScript
+- React 19
+- TailwindCSS
+- React Hook Form + Zod
+- Orval
+- Biome
+
+## ⚡ Features
+
+- 📝 Event registration
+- 🔗 Referral system with invite links
+- 📊 Referral stats dashboard
+- 🏆 Referral ranking
+- 🎨 Responsive UI
+
+## 🏃‍♂️ Quick Start
+
+Prerequisites: Node.js 18+
 
 ```bash
+# Install dependencies
+git clone https://github.com/your-username/codecraft-summit-frontend
+cd codecraft-summit-frontend
+npm install
+
+# Setup environment
+cp .env.example .env.local
+
+# Start dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Access http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Available Scripts
 
-## Learn More
+```bash
+npm run dev        # Development
+npm run build     # Production build
+npm start         # Start production
+npm run lint      # Lint code
+npm run generate:api  # Generate API client
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🔗 Related Links
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Backend API](https://github.com/lui7henrique/nlw-connect-node)
